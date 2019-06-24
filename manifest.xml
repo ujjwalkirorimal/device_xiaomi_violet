@@ -348,6 +348,15 @@
         <fqname>@1.2::ISupplicant/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.qti.hardware.radio.internal.deviceinfo</name>
+           <transport>hwbinder</transport>
+           <version>1.0</version>
+           <interface>
+               <name>IDeviceInfo</name>
+               <instance>deviceinfo</instance>
+           </interface>
+    </hal>
+    <hal format="hidl">
         <name>com.fingerprints.extension</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
