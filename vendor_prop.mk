@@ -181,6 +181,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.enable_hwc_vds=0 \
+    debug.sf.enable_egl_image_tracker=1 \
     persist.debug.wfd.enable=0 \
     persist.debug.wfd.virtual=0
 
