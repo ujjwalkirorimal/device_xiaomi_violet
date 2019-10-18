@@ -143,6 +143,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Qualcomm / OEM Unlock
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1 \
+    ro.vendor.qti.va_odm.support=1 \
     ro.vendor.qti.va_aosp.support=1
 
 # RIL
