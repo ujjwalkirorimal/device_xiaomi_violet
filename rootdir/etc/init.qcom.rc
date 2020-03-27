@@ -68,6 +68,7 @@ on init
 
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
+    chmod 0222 /sys/kernel/debug/tracing/trace_marker
     mount none /dev/null /vendor/etc/acdbdata/QRD* bind
     
 on early-boot
