@@ -25,8 +25,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pe
-
+    $(LOCAL_PATH)/overlay-bootleg
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Device uses high-density artwork where available
