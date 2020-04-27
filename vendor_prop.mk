@@ -6,6 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.video=true \
     audio.sys.noisy.broadcast.delay=600 \
     audio.sys.offload.pstimeout.secs=3 \
+    audio.volume.headset.gain.depcal=true \
     persist.vendor.audio.ras.enabled=false \
     ro.vendor.audio.sdk.fluencetype=none \
     ro.vendor.audio.sdk.ssr=false \
