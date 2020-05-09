@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Bootleggers stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOTANIMATION_HALF_RES := true
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
