@@ -146,3 +146,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb \
     persist.vendor.audio.calfile7=/vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
