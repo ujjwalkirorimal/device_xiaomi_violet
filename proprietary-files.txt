@@ -28,15 +28,6 @@ vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|ec30ec22f831fc9d755f653d9ae336bcbbcd8
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
-# Alarm - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
--product/app/PowerOffAlarm/PowerOffAlarm.apk|29ea64d6d9b20b29f7b3ffb3f71a81038a0ec64c
-product/framework/vendor.qti.hardware.alarm-V1.0-java.jar|69dedc62181ae26bb2fac4eaacb1f2c38eb21c31
-vendor/bin/power_off_alarm|9f800336a28ad1ad111f164b8c779313cddc98c1
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|faccc2a7d94d486c2f61a5fe85f5c4598b4147a7
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|1e2631850cc97dfedbde50a9d0d55c8d14881b44
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|271f85f1c6dc0c65dc3aa9a8603f3910fa50e1ea
-
 # ANT+ (system) - from laurel_sprout-user 9 PKQ1.190416.001 V10.3.4.0.PFQMIXM release-keys
 -lib/libantradio.so|8d9bd787f54a5ad028591ca8a68ba2e0ba43158a
 -lib64/libantradio.so|b1b05e284c71a9552bc7e3f5407520f0757033a8
@@ -931,14 +922,6 @@ vendor/lib64/unnhal-acc-common.so|ddceb10f1008a3b2ab6f4f64a3b519b042a91894
 vendor/lib64/unnhal-acc-hta.so|c96f5b5fb99909b0da2cf9a8abc956d589480359
 vendor/lib64/unnhal-acc-hvx.so|3ef790f573551e8dcda378e86ea389ce0a66a3e4
 
-# Mlipay - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/mlipayd@1.1|caff3f800ba16c251d0f7ace8e031fe86dd47a2e
-vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
-vendor/lib64/libmlipay@1.1.so|ab573a93d659e7496368d5e4f22befee29346431
-vendor/lib64/libmlipay.so|8510d27c292ca9077704724564b635978c0992b9
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|43cae59576c8570a37bbf9d4a059b5e9c207360d
-vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|521357ee808c1a248db9e76269880b1f9d0a0617
-
 # Perf - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|1bfabae277be75c5caa2946868ca8d88ff05467f
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
@@ -978,12 +961,6 @@ vendor/bin/pm-proxy|4200aecba89950e684d284b521a0896347b59487
 vendor/bin/pm-service|0115038b692a2914e28df8b250689306887e2d9b
 vendor/lib/libperipheral_client.so|7ef98f63b1cec72113f7c2193bc4e8ff523f7503
 vendor/lib64/libperipheral_client.so|179a96f4e443c754fd70ff4e0c3c76b71047836c
-
-# Qualcomm Display Utils - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|680370eae4858b06e5be5d3380bdebd0d8b13b8d
-vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|9aa1eacb0880e2cf95f3745f13b1e2222dceb562
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|f227ee67b99082b8aeea5ef9830a3c23efc7e4c6
 
 # Postprocessing - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 product/lib64/vendor.display.color@1.0.so|e90c75046ba1f6f677b9f719caaae8d91d1a5cde
@@ -1318,13 +1295,6 @@ vendor/lib64/libscveObjectTracker_stub.so|b4ab0472e565a69f3c4dce0d1061fad9e990e4
 vendor/lib64/libscvePanorama.so|62cb5a9e8f00a856c6834a95cee4970dd007f63f
 vendor/lib64/libscvePanorama_lite.so|ef7dbeff0c7fbfd5b2faa78dc3521ccbc90d4044
 
-# Soter - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
--vendor/app/SoterService/SoterService.apk|05a33f07ddabd56f8027762ce142016632936498
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|4f7e3c8a6cde9efefd8b9bf440fb1ed442e21fd3
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|208a00cb9c154c53e6c0f28eb24fbc4d7f6f15cf
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|5815859dc07d3181901596d06612b379e86fe6fd
-
 # Thermal
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
@@ -1354,23 +1324,3 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b
 # Wifi - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/cnss-daemon|fa3a0a2618d7cc51a23b3de5110c9aee391018d2
 vendor/bin/nv_mac|a1e4c9d0032732e9d5a2fa38f1dfb9d0005451a8
-vendor/bin/wifilearner|78d083c35899b6e01a92e6893e4e9e1c27c5dc42
-vendor/etc/configstore/wigig.xml|2752200cc901da4a2f514f07f9bf1b0a3272884d
-vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc|aacefc44da5e64760bc12779a83b905ca6b78f01
-vendor/etc/init/vendor.qti.hardware.wigig.supptunnel@1.0-service.rc|0ad6f8871ffb8130d6af385434b2eb0512c04733
-vendor/etc/wifi/aoa_cldb_falcon.bin|7511e868c40e66e9758568b7112894cbce2650a4
-vendor/etc/wifi/aoa_cldb_swl14.bin|2a3be07a8f24bc1b9798d07c7133b0f71b77738f
-vendor/etc/wifi/wigig_p2p_supplicant.conf|2ba755ef8ae5f665b830b6930026534ddd3a1a4b
-vendor/etc/wifi/wigig_supplicant.conf|c62e0b2dee7cb149accbe658d841daabbc92a6b9
-vendor/firmware/wigig/wigig.ini|1ec12833a14cab778168c24c283e237cadbd1781
-vendor/lib/libaoa.so|430896da0e452a9f82dc5b5955fd1e898f40e974
-vendor/lib/libwigig_flashaccess.so|fe5c6a215a17eea835458990aa62150da1ad23ab
-vendor/lib/libwigig_pciaccess.so|dfdb4b624b75bb4379fb9b45360865af1ca07b94
-vendor/lib/libwigig_utils.so|ad2102d4d936418a180514132b314302fcac8469
-vendor/lib64/libwigig_flashaccess.so|8f554607d8ce51c0b4ac9a8a6ca9cf2005aa54fa
-vendor/lib64/libwigig_pciaccess.so|29c7f1720108baae5aa08e3c3050e196cabf01b5
-vendor/lib64/libwigig_utils.so|658963ecac8f0156458bd95b37f8874d8980fbd9
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so|d20889da64cf0e5d86311e31e3a503b348aebd46
-vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so|c343972cbc348c03399ad07136a70c05b745a060
-vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so|344a9028b19b8bc53b23686caabf21b612f2f2ef
-vendor/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so|25ba0bbdef2872364f636faf794d098074e81f4a
