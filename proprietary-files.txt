@@ -511,20 +511,20 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b
 # Consumerir
 vendor/lib64/hw/consumerir.default.so
 
-# CVP - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/hw/vendor.qti.hardware.cvp@1.0-service|c4d796056f605408da827289559e4d5a8cdfb8b3
+# CVP - from LA.UM.8.9.r1-09000-SM6xx.0
+vendor/bin/hw/vendor.qti.hardware.cvp@1.0-service|57ea086d1ea25f9b7df3f865bf1db5acdc874a97
 vendor/etc/init/vendor.qti.hardware.cvp@1.0-service.rc|8bc22298c934bdfc6290ae97b13da80fe99d1f89
-vendor/lib/hw/vendor.qti.hardware.cvp@1.0-impl.so|3b5eb1d53f9f0c67f20b833aff17f500df27fc6a
-vendor/lib/libcvp.so|65170c2e2af22862be6536213c6eff370d8609e9
-vendor/lib/libcvp_common.so|2f491a8ee32f0e5eddca98d82cc5fafc16ec154d
-vendor/lib/libcvp_stub.so|8175c8ffbc59cc243ee7bf9f6078f7008da6df43
-vendor/lib/vendor.qti.hardware.cvp@1.0-halimpl.so|3b22c1434b161f43452c2a1eefedc42480d80770
+vendor/lib/hw/vendor.qti.hardware.cvp@1.0-impl.so|be154556377e7454b7e04e7ee6120e6817978df7
+vendor/lib/libcvp.so|aa923eba95592cc0ab4d1d2ecb295f4913ca616f
+vendor/lib/libcvp_common.so|d3078ceb975a44b12126789bf79be8e74b2fd10b
+vendor/lib/libcvp_stub.so|635fb06dc9992629b98e9a53f7c37db36c22ca44
+vendor/lib/vendor.qti.hardware.cvp@1.0-halimpl.so|642003159c8cda3ef7d7df3d12a63ab9cddbdb8e
 vendor/lib/vendor.qti.hardware.cvp@1.0.so|7536777a5210033ad4d0cf45c635b8061a382168
-vendor/lib64/hw/vendor.qti.hardware.cvp@1.0-impl.so|d890c7a62dec4b11362c0d3bcf7ee5bf613ee8ac
-vendor/lib64/libcvp.so|c6cd518e70fa6d95213abda1893b9ac4790fd9b9
-vendor/lib64/libcvp_common.so|dd8b04458aeb8f8747b3901540aa8a3bd4200c43
-vendor/lib64/libcvp_stub.so|addf270a9e8339cec283e31ad72f1cebb27c5550
-vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so|d9ad45b11f3779ecac38f28ab3f1e44bc09119f6
+vendor/lib64/hw/vendor.qti.hardware.cvp@1.0-impl.so|3016930fc842623feed50da36bce695c635d0dcb
+vendor/lib64/libcvp.so|6101966395fd9fac024c13f3b3193828bcdf9398
+vendor/lib64/libcvp_common.so|dda6a706039533e1ea96cf9e0a63fa329f59aadd
+vendor/lib64/libcvp_stub.so|d86f8a3df9de0c6a2369f54ccaba054063ee22bc
+vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so|d12dccd922f8690398b5b2893becebfb15ea9bbf
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so|8b4756451c038042970bd57330801cb49f89e1f2
 
 # Display calibration
@@ -830,18 +830,18 @@ vendor/lib/vendor.qti.latency@2.0.so|c6b9efda9c2e39fd33bc42e6aee745bd6ee176c8
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ff7a319e51ddd4de14af28a84f7bca5e82547f6e
 vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
 
-# Listen - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/libadpcmdec.so|8dc9036e15aa62a85becfda6eb4865de4308ce33
+# Listen - from LA.UM.8.9.r1-09000-SM6xx.0
+vendor/lib/libadpcmdec.so|3edd1c7ca6e5614f907d74032fb2ae24c738b857
 vendor/lib/libgcs-calwrapper.so|fa8ba4c39920f8ab1ffd8bb84a1b5d3953b377c5
 vendor/lib/libgcs-ipc.so|7bc3733efc941edc176a3c702d6d85438f4971f1
 vendor/lib/libgcs-osal.so|8d3a12a99a1da67cf0897a2ee6e6859e482c122c
 vendor/lib/libgcs.so|41d9701411cb42160fa3dee31ba86bb341909476
-vendor/lib/liblistensoundmodel2.so|04c2e792b63cc6074dc62c2c7baf5d85fbfc05c5
+vendor/lib/liblistensoundmodel2.so|02209675b440d47cb4e1e997bcd26dfbf345e976
 vendor/lib64/libgcs-calwrapper.so|5a828b9697123634569eaa2f1751550ae6bf1601
 vendor/lib64/libgcs-ipc.so|963b1183b1950d16bd462d47b9149bfbd8c3a14a
 vendor/lib64/libgcs-osal.so|5eca0a8d8ea32505d5b8d69b3e13bf640b34976a
 vendor/lib64/libgcs.so|144b92a0f996879349400c6f0fc5daff0d8f5180
-vendor/lib64/liblistensoundmodel2.so|8aaa1875266d9c1798d3f78544599978e534d354
+vendor/lib64/liblistensoundmodel2.so|37320e3ea4b63c9e3136354ec3205b14781993c9
 
 # Configstore - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 -vendor/lib/libplatformconfig.so|05f9ad27a2e17f3df6ee9258744e0369ef16e8fa
