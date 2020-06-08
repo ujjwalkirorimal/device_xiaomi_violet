@@ -1,30 +1,30 @@
-# ADSP - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/bin/adsprpcd|0cdd541ee0a365c5dccd0613e495611f4d0f6607
-vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|13d8a911642844bde32d533948a35730e17d41ad
-vendor/lib/libadsp_default_listener.so|7da1a1cfef2f04e3577d0e1cda81ce12204598fa
-vendor/lib/libadsprpc.so|28a1d664aba2bda20e62d04c09c117eea136d3c7
-vendor/lib/libmdsprpc.so|07e492c35dc205391d8d7e2d4684801ed870d329
-vendor/lib/libsdsprpc.so|f4d860f07a9e44a04eb9578771f079528c770109
-vendor/lib64/libadsp_default_listener.so|abace257c0ae59ddc693f1e42d16670312673873
-vendor/lib64/libadsprpc.so|aea62273ca4355ceb76dfeec2cd11d39614a854e
-vendor/lib64/libmdsprpc.so|df135d5ca3e0ac4ccc670a4133f781d77315f089
-vendor/lib64/libsdsprpc.so|65f23710d4895b738c9eb827b513b1d9d9480aad
+# ADSP - from LA.UM.8.9.r1-09000-SM6xx.0
+vendor/bin/adsprpcd|5b803e679ddbce4e59c2a67433ffefa6396d61f3
+vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|564490ec94e70e87dc13796dd72520cfea699e83
+vendor/lib/libadsp_default_listener.so|01198d4e2871c163f19b0088b295757d7f35dfe0
+vendor/lib/libadsprpc.so|e84d43d6423f9390c037b2f97f4111b759b66422
+vendor/lib/libmdsprpc.so|778256b21be95deff8c2b49a522bd75d5d88cdfc
+vendor/lib/libsdsprpc.so|86f0173fd2f0cec4fb6838ad8babd3dd21e7a80f
+vendor/lib64/libadsp_default_listener.so|2411edf852600158588e40858b4183566733438e
+vendor/lib64/libadsprpc.so|7ceedf63d4458f1d4ef4ea96b2a8ddb2659ffe9a
+vendor/lib64/libmdsprpc.so|764d6c02ea5608ca84617a702940de3b53bb12c7
+vendor/lib64/libsdsprpc.so|b51b6d40ad0aebaa566ad10b2d6212d5b0f5bb62
 
-# ADSP modules - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
+# ADSP modules - from LA.UM.8.9.r1-09000-SM6xx.0
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
 vendor/lib/rfsa/adsp/dirac_resource.dar|8697ff9e77a872b849cd2ce95afa45dac97cb01e
-vendor/lib/rfsa/adsp/libVC1Dec.so|79a8425bc640ed3401a784ca5f4f04865a3e38e3
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|e108bf1175b6ebaead5b9eec3b9279c8edbb52e3
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|de5ea1c639d93d1a66f43d3d3e8f4e1602c0a83e
+vendor/lib/rfsa/adsp/libVC1Dec.so|b95d4b6cf40d465a405ff27ceecd49a839ab74f7
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|b10140f450c053e3b88414c85454225aa9456473
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
 vendor/lib/rfsa/adsp/libcamera_nn_skel.so|29d949909c9f115491b781ff93604be238e0f965
 vendor/lib/rfsa/adsp/libcvpdsp_skel.so|58cbb97212073cf7e4780c6d77a7628c3ee845bd
 vendor/lib/rfsa/adsp/libdirac-capiv2.so|c1432e70a935bc34b3787a4973fce4bab1faf4e2
-vendor/lib/rfsa/adsp/libdspCV_skel.so|c1ab1b81cd2f2c584aa51e722244c436a0f24f6b
+vendor/lib/rfsa/adsp/libdspCV_skel.so|c6034c389845a94a4054dd0fe9a0381adbf086e5
 vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057170568892a18f
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|aee67209556f075cabdb55ddc70d7a76ffc74b3b
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|1dc2f84efcb8ac9a72f98de014b7f763ad61847b
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|ece66eb42105bb88f196e5678919393249ea2aac
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|ec30ec22f831fc9d755f653d9ae336bcbbcd82bf
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
@@ -83,12 +83,12 @@ vendor/lib64/soundfx/libqcreverb.so|13f05971cbc124fc93087b64b9c1f59798e8af4a
 vendor/lib64/soundfx/libqcvirt.so|64b8d53a43ed154a065e9ebc2299d71cede7e2a9
 
 # Audio - hardware - from violet-user 9 PKQ1.181203.001 9.9.3 release-keys
-vendor/lib/hw/audio.primary.sm6150.so|50fa07b8cfd356fc10d7cf9537f0bd3862941939
-vendor/lib/libaudio_log_utils.so|a8e0f5215004c493ff9bc4541e91ed8d1b4411a6
-vendor/lib/libtinycompress_vendor.so|9ba9aecb21cdf179a9acbcf3996c967eb81fd181
-vendor/lib64/hw/audio.primary.sm6150.so|02da298846334b8dd1c39c8d6f769d670fb46c95
-vendor/lib64/libaudio_log_utils.so|df3362525f612e00988a16307c4a3781e564516d
-vendor/lib64/libtinycompress_vendor.so|f1b9ea591545cede86490fd6ab9092391c56be86
+vendor/lib/hw/audio.primary.sm6150.so|02da298846334b8dd1c39c8d6f769d670fb46c95
+vendor/lib/libaudio_log_utils.so|df3362525f612e00988a16307c4a3781e564516d
+vendor/lib/libtinycompress_vendor.so|f1b9ea591545cede86490fd6ab9092391c56be86
+vendor/lib64/hw/audio.primary.sm6150.so|50fa07b8cfd356fc10d7cf9537f0bd3862941939
+vendor/lib64/libaudio_log_utils.so|a8e0f5215004c493ff9bc4541e91ed8d1b4411a6
+vendor/lib64/libtinycompress_vendor.so|9ba9aecb21cdf179a9acbcf3996c967eb81fd181
 
 # Audio Firmware
 vendor/firmware/tas2563_uCDSP.bin
@@ -1339,7 +1339,7 @@ vendor/lib/libthermalfeature.so
 vendor/lib64/libthermalfeature.so
 
 # Time services - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert|27f9b81621c446baa8c37581d9bfbca2fd67b496
+-vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
 vendor/bin/time_daemon|0e8fd168d881c017eac09452df816eadba7de6a1
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib/libtime_genoff.so|8578fc5aab1509fedb744f9b73721dc1acfd9748
