@@ -39,7 +39,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # CNE and DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1 \
-    persist.vendor.dpm.feature=1 \
+    persist.vendor.dpm.feature=0 \
     persist.vendor.dpm.nsrm.bkg.evt=3955 \
     ro.vendor.use_data_netmgrd=true
 
@@ -50,18 +50,25 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.hw=0 \
+    debug.egl.hw=0 \
+    debug.mdpcomp.logs=0 \
     debug.gralloc.enable_fb_ubwc=1 \
     ro.opengles.version=196610 \
     ro.vendor.display.sensortype=2 \
     vendor.display.comp_mask=0 \
+    vendor.display.disable_scaler=0 \
+    vendor.display.disable_inline_rotator=1 \
+    vendor.display.enable_null_display=0 \
+    vendor.display.disable_excl_rect=0 \
+    vendor.display.enable_force_split=0 \
+    vendor.display.enable_optimize_refresh=1 \
+    vendor.display.disable_ui_3d_tonemap=1 \
     vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0 \
     vendor.display.disable_decimation=1 \
     vendor.display.disable_hw_recovery_dump=1 \
     vendor.display.enable_default_color_mode=0 \
-    vendor.gralloc.disable_ubwc=0 \
-    debug.cpurend.vsync=false \
-    persist.hwc.enable_vds=1 \
-    debug.sdm.support_writeback=0
+    vendor.gralloc.disable_ubwc=0 
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -117,13 +124,12 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.enable_gl_backpressure=1 \
+    debug.sf.disable_backpressure=1 \
     debug.sf.early_phase_offset_ns=500000 \
     debug.sf.early_app_phase_offset_ns=500000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
-    debug.sf.high_fps_early_phase_offset_ns=6100000 \
-    debug.sf.high_fps_early_gl_phase_offset_ns=9000000 \
-    debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000 \
-    debug.sf.latch_unsignaled=0 \
-    debug.sf.enable_hwc_vds=1
+    debug.sf.latch_unsignaled=1 \
+    debug.sf.enable_hwc_vds=0 \
+    persist.debug.wfd.enable=0 \
+    persist.debug.wfd.virtual=0
