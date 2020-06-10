@@ -22,8 +22,6 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a9
 
-TARGET_USES_64_BIT_BINDER := true
-
 BUILD_BROKEN_DUP_RULES := true
 
 MSMSTEPPE := sm6150
@@ -38,7 +36,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 androidboot.usbcontroller=a600000.dwc3 earlycon=msm_geni_serial,0x880000 loop.max_part=16
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.console=ttyMSM0 service_locator.enable=1 swiotlb=1 earlycon=msm_geni_serial,0x880000 loop.max_part=7 cgroup.memory=nokmem,nosocket
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_OFFSET := 0x00008000
@@ -50,8 +48,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 
-# Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
 
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
@@ -62,6 +58,9 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Audio
 AUDIO_FEATURE_ENABLED_AAC_ADTS_OFFLOAD := true
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := false
+AUDIO_FEATURE_ENABLED_DTS_EAGLE := false
+AUDIO_FEATURE_ENABLED_HW_ACCELERATED_EFFECTS := false
 AUDIO_FEATURE_ENABLED_AUDIOSPHERE := true
 AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := true
 AUDIO_FEATURE_ENABLED_EXTN_FORMATS := true
@@ -72,6 +71,7 @@ AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
+BOARD_SUPPORTS_QAHW := false
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -106,6 +106,9 @@ TARGET_USES_DISPLAY_RENDER_INTENTS := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
+MAX_EGL_CACHE_KEY_SIZE := 12*1024
+MAX_EGL_CACHE_SIZE := 2048*1024
+TARGET_USES_DRM_PP := true
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
@@ -116,6 +119,7 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 TARGET_PROVIDES_KEYMASTER := true
 
 # Media
+TARGET_DISABLED_UBWC := true
 TARGET_USES_MEDIA_EXTENSIONS := true
 
 # Vendor init
@@ -142,6 +146,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
@@ -200,6 +207,7 @@ WIFI_DRIVER_STATE_ON := "ON"
 WIFI_HIDL_FEATURE_AWARE := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/violet/BoardConfigVendor.mk
