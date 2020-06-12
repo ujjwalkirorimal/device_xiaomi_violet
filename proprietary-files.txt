@@ -40,44 +40,44 @@ vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|1626b16bd3de85db4bd68e933bef0d24f
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|671430030323a3e8b5dd334383143df6dd85d0fa
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|83759b8f07fb1e64baecff205cef1f2e67381243
 
-# Audio - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
+# Audio - from violet-user-10-QKQ1.190915.002-20.6.4-release-keys
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
-vendor/lib/libacdb-fts.so|1578268cdbd2a722affc4be02872353cc702a969
-vendor/lib/libacdbloader.so|4bbea222afe1a9a20566ff097c59e623ff0738f4
-vendor/lib/libacdbrtac.so|1804fa13c8bac7f02af550ef9ca0bb7ca672dd73
-vendor/lib/libadiertac.so|dde05100c7bc3e752ea984a6e74dafa5617e1bac
+vendor/lib/libacdb-fts.so|9af886e69983f4673f3cf2f7ea9f5d907320258f
+vendor/lib/libacdbloader.so|06ba70666f83016fe5db7d99f4ba3d14f259e213
+vendor/lib/libacdbrtac.so|5cb9d61b744a0d0d0fdd89f8c24c4ecad689ce41
+vendor/lib/libadiertac.so|30ac3ba28c2b36c19744303387629ba143bcc15e
 vendor/lib/libadm.so|fd0c0a2a1864023c221a23bc4587fb85134e4e28
-vendor/lib/libaudcal.so|38efce23772f90564123ef842dfb1cd66f63b5a2
+vendor/lib/libaudcal.so|a4dc726a873328dabe3dc0b9578959f9d8634a7c
 vendor/lib/libaudioalsa.so|89665aca431ac6de9f0848ff23fba585e70820e5
 vendor/lib/libaudioparsers.so|11ad61b7e57e57fe45929a66310c101984c3b341
 vendor/lib/libdrc.so|80297cbca91cc6ef470cd667d003e2b27990ef8e
-vendor/lib/libhdmipassthru.so|9791b492788d3f678e1dfe63b53d091ef7f6459b
+vendor/lib/libhdmipassthru.so|2cccc6327de7ed2066a96af89bbef0da73d2296a
 vendor/lib/libqtigef.so|23f654b3be361b422d7d36375460d1dac232b350
 vendor/lib/libsurround_3mic_proc.so|9020976e90c2b78bcff5cbd6a913b1de8a436000
 vendor/lib/soundfx/libasphere.so|b16636ad3a2d5b4bf575012ed212b8e51269c7d5
-vendor/lib/soundfx/libqcbassboost.so|b4d85132b8657c8df2baec4cdce856284fdfb4dc
-vendor/lib/soundfx/libqcreverb.so|40161cbfb46c28d485c9a1dffb4806834e66bb16
-vendor/lib/soundfx/libqcvirt.so|2c19f79ea730dbb6c1e5b3ad299a40fafadabd3e
-vendor/lib64/libacdb-fts.so|7ab3d376308ff949358819a4b65cd0bf095f2da1
-vendor/lib64/libacdbloader.so|a423320848031e21091bc9e163b2ce9dc27f2d90
-vendor/lib64/libacdbrtac.so|381ea26c98ce1bd00d0d3f0e30b8ced802703a1e
-vendor/lib64/libadiertac.so|9e4c4f06ad861f89487f3780c197a9a2cbbe12ed
-vendor/lib64/libaudcal.so|28757d7f2947efbd6b3909630edfd7b03635a65b
+vendor/lib/soundfx/libqcbassboost.so|b49e2c75039408e4251b86fefdc44740e6c6833f
+vendor/lib/soundfx/libqcreverb.so|0637bfedb8dcb7136e184202a9105347f60db0c0
+vendor/lib/soundfx/libqcvirt.so|b4fb3ac15c4709e0fa935f2415290c357144c891
+vendor/lib64/libacdb-fts.so|a78a04e1e1223c42a74f18bcbde8c90d67644d3e
+vendor/lib64/libacdbloader.so|a7b5aedc4e52948f5da229edcfad81d3526d538d
+vendor/lib64/libacdbrtac.so|22105be08453803e4bc5be4aa8c8359aa403babd
+vendor/lib64/libadiertac.so|bdae5bcd75ca7433505ce553ebc135f36e448039
+vendor/lib64/libaudcal.so|cd639f682521d408111d875614347c122cc522fd
 vendor/lib64/libaudioalsa.so|a743be854f0af2ae8f60d6c598f078a4c09f8b41
 vendor/lib64/libaudioparsers.so|ab849844b97f005231b1b3150e61cd4b67cbdb11
-vendor/lib64/libhdmipassthru.so|882fe62187d282a4c0fe257cd54a7090fe809824
+vendor/lib64/libhdmipassthru.so|2d2dfb5eedd82b9835bde7adb2dec0f375f657ad
 vendor/lib64/libqtigef.so|886285c40cd45a4f17d3b2e5e909da5a4fd9bf6c
 vendor/lib64/soundfx/libasphere.so|bd48aa3d7cf27bf3b12ce29f429b719383e104fc
-vendor/lib64/soundfx/libqcbassboost.so|6df111d89e7604127381224cd48802fa7adc4c9d
-vendor/lib64/soundfx/libqcreverb.so|13f05971cbc124fc93087b64b9c1f59798e8af4a
-vendor/lib64/soundfx/libqcvirt.so|64b8d53a43ed154a065e9ebc2299d71cede7e2a9
+vendor/lib64/soundfx/libqcbassboost.so|f793c9b77ad4847ee9d6a02f3e1d93d4d39fa522
+vendor/lib64/soundfx/libqcreverb.so|a3fbb12b01b7519584abb49436d6b1508e5bcdae
+vendor/lib64/soundfx/libqcvirt.so|96d583336df27d2f0698b21bf336a3b9c44f635d
 
-# Audio - hardware - from violet-user 9 PKQ1.181203.001 9.9.3 release-keys
-vendor/lib/hw/audio.primary.sm6150.so|02da298846334b8dd1c39c8d6f769d670fb46c95
+# Audio - hardware - from violet-user-10-QKQ1.190915.002-20.6.4-release-keys
+vendor/lib/hw/audio.primary.sm6150.so|ab03cfb8b00d665b2a081b00368571313cc0b72e
 vendor/lib/libaudio_log_utils.so|df3362525f612e00988a16307c4a3781e564516d
 vendor/lib/libtinycompress_vendor.so|f1b9ea591545cede86490fd6ab9092391c56be86
-vendor/lib64/hw/audio.primary.sm6150.so|50fa07b8cfd356fc10d7cf9537f0bd3862941939
+vendor/lib64/hw/audio.primary.sm6150.so|ea5ca1ae14bfdf4ef0a818c26fd0ead05f7a37b8
 vendor/lib64/libaudio_log_utils.so|a8e0f5215004c493ff9bc4541e91ed8d1b4411a6
 vendor/lib64/libtinycompress_vendor.so|9ba9aecb21cdf179a9acbcf3996c967eb81fd181
 
@@ -759,18 +759,18 @@ vendor/lib64/libhdr_tm.so|2c3d85e0d6da3ef0c0e3106dba18b6fcbb88c5dc
 vendor/lib/libdpps.so|c7440ed61aa57361a48ba7ef440d596cbab44432
 vendor/lib/libqseed3.so|2bd3114d98dacab05e7b8718e4b735235a31a26a
 vendor/lib/libsdedrm.so|8cf0c7475f3e3a492f5dc148f80016a15ea66843
-vendor/lib/libsdm-color.so|293c273ead416e5fe909ad4566dd27998c87ff3c
+vendor/lib/libsdm-color.so|300fc08d79821c29155338c25dbb5c3a7920253f
 vendor/lib/libsdm-colormgr-algo.so|7f233630c3893cb0dedaab86b6bc87c3af94fa68
 vendor/lib/libsdm-diag.so|d0762c2333a62ebd6f56f104f2c2580b7c165059
-vendor/lib/libsdmextension.so|1b702f9295abaf8516fb93a36426441ff1c0c62b
+vendor/lib/libsdmextension.so|487209c63dc901b6fc55e5c66f93fbd4a4756e92
 vendor/lib/libtinyxml2_1.so|e84b6021097719954ff1878607c635b98ab602a5
 vendor/lib64/libdpps.so|c482dcb69da831835bddd36b733d848659296829
 vendor/lib64/libqseed3.so|8e3a318c207cc84c35ac152875d4e9ce023efd6a
 vendor/lib64/libsdedrm.so|3c82dc9fa9b249d3d00d209ed2c06ad458d3f167
-vendor/lib64/libsdm-color.so|46f84ca801b4abdea8ffda56b213612a795f7106
+vendor/lib64/libsdm-color.so|e5c120cb6acbecf5a2c344029b103d6b61fc3925
 vendor/lib64/libsdm-colormgr-algo.so|98a55014ebce7dd77319745c118af8368dec5e27
 vendor/lib64/libsdm-diag.so|f080993703d425a337faaa5d2cc3c05119db6ac1
-vendor/lib64/libsdmextension.so|06657750012ba5d920178556b9e2719d781e40b6
+vendor/lib64/libsdmextension.so|baa5807e39b25134fbe6c9ba2667eead26256e25
 vendor/lib64/libtinyxml2_1.so|92adc9b612766cda6fa50f4c36d046b1a6da0816
 
 # Graphics (Vulkan) - from LA.UM.8.9.r1-09000-SM6xx.0
@@ -1303,6 +1303,9 @@ vendor/lib64/libscvePanorama_lite.so|ef7dbeff0c7fbfd5b2faa78dc3521ccbc90d4044
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 vendor/bin/thermal-engine
+vendor/etc/thermal-engine-sgame.conf
+vendor/etc/thermal-engine-pubgmhd.conf
+vendor/etc/thermal-engine-high.conf
 vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf|0f952860f1f9fca9b724fc7121fc761629abe4fe
