@@ -29,7 +29,6 @@
 
 on early-init
     write /proc/sys/kernel/sched_boost 1
-    symlink /data/tombstones /tombstones
 
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
@@ -134,11 +133,6 @@ on late-fs
     exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --late
 
-service sec_nvm /vendor/bin/sec_nvm
-    class core
-    user system
-    group system
-
 on post-fs-data
     mkdir /data/tombstones 0771 system system
     mkdir /tombstones/modem 0771 system system
@@ -225,7 +219,6 @@ on property:sys.shutdown.requested=*
 on charger
     setprop vendor.usb.controller a600000.dwc3
     setprop sys.usb.configfs 1
-    start vendor.power_off_alarm
 
 service vendor.qseecomd /vendor/bin/qseecomd
     class core
@@ -241,25 +234,8 @@ service thermal-engine /system/vendor/bin/thermal-engine
    socket thermal-send-rule stream 0660 system system
    group root
 
-service vendor.cnss_diag /system/vendor/bin/cnss_diag -q -f -t HELIUM
-   class main
-   user system
-   group system wifi inet sdcard_rw media_rw diag
-   disabled
-
-service qfp-daemon /vendor/bin/qfp-daemon
-    class late_start
-    user system
-    group system drmrpc diag input
-
 service nv_mac /vendor/bin/nv_mac
     class late_start
     user system
     group system inet net_admin wifi net_raw
     oneshot
-
-on property:sys.thermallct.isincall=1
-    write /sys/class/power_supply/battery/device/thermalcall 1
-
-on property:sys.thermallct.isincall=0
-    write /sys/class/power_supply/battery/device/thermalcall 0
