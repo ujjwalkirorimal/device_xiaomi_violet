@@ -41,3 +41,6 @@ ro.netflix.bsp_rev=Q6150-17263-1
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# FP_Override
+ro.build.fingerprint=google/flame/flame:10/QQ3A.200605.001/6392402:user/release-keys
