@@ -166,7 +166,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan \
     memtrack.sm6150 \
-    vendor.display.config@1.10 \
+    vendor.display.config@1.11 \
     vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
