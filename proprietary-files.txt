@@ -28,13 +28,13 @@ vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|ec30ec22f831fc9d755f653d9ae336bcbbcd8
 vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
-# ANT+ (system) - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# ANT+ (system) - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 -lib/libantradio.so|d343bed6e26f99d9870f730303096f6ea8a9bcf8
 -lib64/libantradio.so|43f6105678c082216f1606d8dd43fa1b0b753d7e
 lib/com.qualcomm.qti.ant@1.0.so|fd8a3ac1c865ef3b0f6f3eedd85786a9993db114
 lib64/com.qualcomm.qti.ant@1.0.so|ad4f7601400bbe6ca9d82dcc6a38023e48d35469
 
-# ANT+ (vendor) - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# ANT+ (vendor) - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/lib/com.qualcomm.qti.ant@1.0.so|f06db3ccdcd6b184d26f4e4a3880e587e09f3a6b
 vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|41eb9b42a7ab4a15c50e26956377b68f8cb922a5
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|181a8ab9b1d40705d3151821b53732c5566a2848
@@ -100,38 +100,27 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/hw/audio.bluetooth.default.so
-vendor/lib/hw/audio.bluetooth_qti.default.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib/libbluetooth_audio_session.so
-vendor/lib/libbluetooth_audio_session_qti.so
-vendor/lib/libbt-hidlclient.so
-vendor/lib/libbtnv.so
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/audio.bluetooth.default.so
-vendor/lib64/hw/audio.bluetooth_qti.default.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/libbluetooth_audio_session.so
-vendor/lib64/libbluetooth_audio_session_qti.so
-vendor/lib64/libbt-hidlclient.so
-vendor/lib64/libbtnv.so
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+# Bluetooth - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|286fa51a8be4692dc15b7a5945efc86040b04810
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|392118f11d054815e623cae6ef856f65650ef2a8
+vendor/lib/hw/audio.bluetooth_qti.default.so|7dcd20a9637021233693ac2474e61bc651dbea76
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|c8f0515e3d9c2dfc99e2562f3b43100690ee2054
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|6f9f0f1a9bbd14682caf825844cf652adb7b8f4b
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|d04ce5677ea683330ea26dfebe40759e7e533d6d
+vendor/lib/libbluetooth_audio_session_qti.so|a73c0f4a91715deb1a85c54e2ac2e1dd1b613dca
+vendor/lib/libbtnv.so|44c235fcd473534b26a2c677f512bf9bf4f70d57
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|37bc226f0aa9793a6beca1cabdde40030a7637f9
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|332bbe7b0e76358500605f7651b0dcfa0cd7f27b
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71ad8980142e7d8d754607accc0cffd8f5e68dbd
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|96b44484392abf88f8473100279e9f68b05f1f50
+vendor/lib64/libbluetooth_audio_session.so|f4c8c08ac6fcdef0cbfa4fd68023150a7149d48a
+vendor/lib64/libbluetooth_audio_session_qti.so|d04b847239afffdd6f6fe603fe7a30ac607889da
+vendor/lib64/libbt-hidlclient.so|75143c662d2920cef7e8b391fb64a8261cf59c52
+vendor/lib64/libbtnv.so|248e15f6a08306b45a6cf53dade8e7ae575f0945
+vendor/lib64/hw/audio.bluetooth_qti.default.so|8b390a57d5c58a362f435342c9f892a32da5078f
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
 
 # Camera
 lib/libchromaflash.so
@@ -457,7 +446,7 @@ vendor/lib/libcdsprpc.so|1a7786a5ed3389bb2d045c443bb05b7d4febf0d5
 vendor/lib64/libcdsp_default_listener.so|33260b098ddde2d0e6cf44b11f12e4c16264fda5
 vendor/lib64/libcdsprpc.so|88967a6dcd6a5e9923cbc903fa26594ec872de54
 
-# Charger - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Charger - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/bin/hvdcp_opti|f2dd72f3ce6874e33f893cd03aaf188b4c95050c
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|160f0c6ccbb8276cd491990d70ac8ad25f36be68
 
@@ -625,7 +614,7 @@ vendor/lib64/libcpion.so|bf42036be4fcb098622ba8ec98371665650d443d
 vendor/lib64/libhdcpsrm.so|6037097e5cd06a31a18f59f84689db7b0a227760
 vendor/lib64/liboemcrypto.so|6a17b485af4496e2a8d3411e0127fc2559e23e4e
 
-# ESE-Powermanager - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# ESE-Powermanager - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|6d76ad36f33e885c14b7176753ee228d405e64d4
 vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
 vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|48768b9be453eb86ffbff3a71fe5654841bc048a
@@ -660,7 +649,7 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|4be49b5cc5573c59ea28c10f9986deab0a023fa
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|942c4a88be55eb62fab614a08b64676972de2d89
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|9c1b952043c7722fd27bfd971ecebb2584671862
 
-# Gatekeeper - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Gatekeeper - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|a189a50515831e6ac9a7e88a165ac979ae6ac077
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|c55e5c78d0e5e6268cc03cb4232005e3ccc5a223
@@ -815,7 +804,7 @@ vendor/lib64/libtinyxml2_1.so|92adc9b612766cda6fa50f4c36d046b1a6da0816
 vendor/lib/hw/vulkan.sm6150.so|494d63f2067d47ee04ef67b2d232f8e60d61ccbe
 vendor/lib64/hw/vulkan.sm6150.so|660e590795a2512671bd49aa81ff393a9ec3a841
 
-# IO Prefetcher - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# IO Prefetcher - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|98c38e3647a6c286e5bfb8b271827328f6c04148
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|feaee7a3969d3f711db4fa5f12d1d4cca5fc2072
@@ -838,7 +827,7 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.mdt
 vendor/firmware/ipa_fws.elf
 
-# Keystore - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Keystore - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|312e4ff5d9f7e3548a0f1404b0c33c1a56b3b0f6
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
 vendor/lib/libkeymasterdeviceutils.so|fdef44a1d20019ed0aa4de1216135b72a4070507
@@ -850,7 +839,7 @@ vendor/lib64/libkeymasterprovision.so|09a61b1a36e28b9d5c485dfa7a290b3923abfb04
 vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 vendor/lib64/libqtikeymaster4.so|08e3341250f7cec2c0cd9b203bacd3bccf79e8f5
 
-# Latency - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Latency - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
 product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
 product/lib/vendor.qti.hardware.data.latency@1.0.so|8a099459d7412b75b1b803cec2c2d3293f759198
@@ -875,7 +864,7 @@ vendor/lib64/libgcs-osal.so|5eca0a8d8ea32505d5b8d69b3e13bf640b34976a
 vendor/lib64/libgcs.so|144b92a0f996879349400c6f0fc5daff0d8f5180
 vendor/lib64/liblistensoundmodel2.so|37320e3ea4b63c9e3136354ec3205b14781993c9
 
-# Configstore - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Configstore - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 -vendor/lib/libplatformconfig.so|05f9ad27a2e17f3df6ee9258744e0369ef16e8fa
 -vendor/lib64/libplatformconfig.so|68ffaf8e448c32b11b5da47708170d0decb8dc7b
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|21cba9e17196a7b6f0a66fb17bade23cab4b5b94
@@ -963,22 +952,22 @@ vendor/lib64/unnhal-acc-common.so|da017cdd472399d248d6922d45491ceb4206afe1
 vendor/lib64/unnhal-acc-hta.so|c96f5b5fb99909b0da2cf9a8abc956d589480359
 vendor/lib64/unnhal-acc-hvx.so|8e96aed67df573319f3d150064020debaa0b3eda
 
-# Perf - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|1bfabae277be75c5caa2946868ca8d88ff05467f
+# Perf - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|e5b46574ac93e11a00081644b65df70f85bed420
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|0101a3294311c2988060a00f7b25d8abf2f428f9
 vendor/etc/lm/AdaptLaunchFeature.xml|21c91f86ed80b4ca513d68b8fca6754ffd31395d
 vendor/etc/lm/AppClassifierFeature.xml|102e4291357dd384c0f474d4192370e25123c5e7
 vendor/etc/lm/GameOptimizationFeature.xml|de0bd5be9e1f6ad936fb817fa2ff745a8ca94fd4
 vendor/etc/perf/commonresourceconfigs.xml|9e277f76243eb5ad16d3e55843aadf68a54e7aaa
-vendor/etc/perf/perfboostsconfig.xml|037627430838276ac6e00cb895c058f14f25f4df
-vendor/etc/perf/perfconfigstore.xml|afb6ef1b9891d979a01867fbb38546ac303037e1
+vendor/etc/perf/perfboostsconfig.xml|2a266eeb739c61ab2748845f423ced61bb9e80ab
+vendor/etc/perf/perfconfigstore.xml|7886ef64d00ceae9c00663e20e0d5b4efc930f65
 vendor/etc/perf/targetconfig.xml|53d6e2936c1cdc67edf86a2ccf04084adbff4a68
 vendor/etc/perf/targetresourceconfigs.xml|0a614d97672c516aedc253aec525468fbdb270ec
 vendor/etc/perf/thermalboost.conf|3a70ac91160e48a64578f0b7775798f19040e87d
 vendor/lib/libperfconfig.so|645d5170d7cd9413604ae756cd5ec383ca7e5092
 vendor/lib/libperfgluelayer.so|dfabc7c38f54f0aba2a0ea7fbe6cd5c3822cee2d
-vendor/lib/libqti-perfd-client.so|c94451c1a19d460c6b919cb5ff84c76946a6d399
+vendor/lib/libqti-perfd-client.so|4612a80ef0b1782db258a071fb188a60d9e22f31
 vendor/lib/libqti-perfd.so|6da2ff0e9ab4305cbc66f5b40c295ac227b27fe7
 vendor/lib/libqti-util.so|2c3fdef8f812e5541634b17255480baa6a1f8650
 vendor/lib/libqti-utils.so|81d3d40097615baad8ff77a6ba3e6ec0706b4d71
@@ -991,7 +980,7 @@ vendor/lib64/libmeters-ns.so|73f78b3461a4cbee6419721149dd95fec9029f8b
 vendor/lib64/libmeters.so|5a518301ad77996a47c9c893093f2c2f36085ded
 vendor/lib64/libperfconfig.so|6b7535b00836fe98ff330864740b5bba293c8e87
 vendor/lib64/libperfgluelayer.so|b8d4864e2bc3b903e1a0d9c548686e5fac81fe54
-vendor/lib64/libqti-perfd-client.so|9db27376ef994c4c90eb90dc3c7c4e493c2902e4
+vendor/lib64/libqti-perfd-client.so|a44718477d4c6ab0a999f9c231a359e43d279489
 vendor/lib64/libqti-perfd.so|820f565f6d3cf9704163a56b8b9bd295602806a6
 vendor/lib64/libqti-util.so|c78b855b3909b01071ced5fc898add769de4a5b6
 vendor/lib64/libqti-utils.so|3726d65486928bc014e657960dc023d920524922
@@ -1003,7 +992,7 @@ vendor/bin/pm-service|52d281741eb349cc9a93ae926eb6e9ea8d547210
 vendor/lib/libperipheral_client.so|a51f6c2c42eca4d96b90e865bc5d7a39ee92970c
 vendor/lib64/libperipheral_client.so|152c9fc185eff92973148fd257550948265d4107
 
-# Postprocessing - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Postprocessing - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 product/lib64/vendor.display.color@1.0.so|e90c75046ba1f6f677b9f719caaae8d91d1a5cde
 vendor/bin/hw/vendor.display.color@1.0-service|ab46995540bd4721e1241de17241e55dbbd5435c
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
@@ -1021,7 +1010,7 @@ vendor/lib64/vendor.display.color@1.2.so|6adfa77494dbad3be8a34b259b25f8a4d9dd6a0
 vendor/lib64/vendor.display.color@1.3.so|906603578d0b833d990a50bff62f36a0fc186f85
 vendor/lib64/vendor.display.postproc@1.0.so|0b578a42706c770c6c61eccdee8a9e4c89c08b10
 
-# QMI - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# QMI - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 vendor/bin/irsc_util|4381ded94ac2775cf186c97c7ad6236eaa209eac
@@ -1031,7 +1020,7 @@ vendor/lib/libdsutils.so|6dd9fbe990eb1f70a1aab65402c2236bd1d8d0d4
 vendor/lib/libidl.so|274bc453454288dcb15ac3e340c9526cafcb2fb4
 vendor/lib/libqcci_legacy.so|d89721d77d01492829165d2547dd6b8eb4176bf0
 vendor/lib/libqdi.so|c7b4552e46e14a88eab53ee6013b67479d2e5941
-vendor/lib/libqdp.so|107fd6fc7b804b840691aecb92e1ec739b3477a2
+vendor/lib/libqdp.so|75b92e35bef963bb6b76d80a74bb1644274a8159
 vendor/lib/libqmi.so|4831465b39e70af1a24c62c751c05ac52ad4d9c7
 vendor/lib/libqmi_cci.so|ad2c4e7e48391ffbd7059924d0c1cf838fb46531
 vendor/lib/libqmi_client_helper.so|8354737c748674cfff54eea093c4f0270ef660ce
@@ -1045,7 +1034,7 @@ vendor/lib64/libdsutils.so|568368395fa405879e3c3220378306f0f1259eb9
 vendor/lib64/libidl.so|ea0cd6e8dd41264eefbbb843d47e60cc62d2037e
 vendor/lib64/libqcci_legacy.so|6b706c4fd6d2730f7e6b3a347a9268bcd1141ee6
 vendor/lib64/libqdi.so|f0f85c59f0e89a4392660e7301a60575e0a346a9
-vendor/lib64/libqdp.so|1007e8941bdf868a80ec81058ac541fe8d4cb904
+vendor/lib64/libqdp.so|20863062753c0a37ab509b56a611574417bc1caf
 vendor/lib64/libqmi.so|8d97e7d43347c5370e34977f51e1d931529a098f
 vendor/lib64/libqmi_cci.so|38b539e8ac55311d4921a1857ac9e18db6fbb5b8
 vendor/lib64/libqmi_client_helper.so|32c48ca3b2ee6ad97921477978465be0c1f64d9c
@@ -1072,7 +1061,7 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|3202c209bd8249e3f76dec1108
 # Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
 product/framework/qti-telephony-common.jar|74adbf98e89531ac385ab5c4cea3c2549a0d24b0
 
-# Radio - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Radio - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 -product/app/QtiTelephonyService/QtiTelephonyService.apk|db60b6fe27b3033f6468b3170b23af18dd0bcdaf
 -product/app/atfwd/atfwd.apk|62ec25e5b0e68a820a7a52223465d95e8e5c9be8
 -product/app/datastatusnotification/datastatusnotification.apk|ea611e4f1efc3077adf3054051ead13422927426
@@ -1122,7 +1111,7 @@ vendor/lib64/libqcrilFramework.so|0848da056cef711f98c05bdf3f3d25b9601fdd36
 vendor/lib64/libqcrildatactl.so|89c471f0bfdcd3b6cc0fea4265c7a2c7d71d99ff
 vendor/lib64/libqrtr.so|9addbb504885bb2a82e0b19e38077742bc48c10f
 vendor/lib64/libqsocket.so|dd4067d7a79565f11034277d4ef46698cd17c19b
-vendor/lib64/libril-qc-hal-qmi.so|9b7b66c2175ba18453ebca6cc4df7558079f2b34
+vendor/lib64/libril-qc-hal-qmi.so|a106d901b8a03b7bd84e27f064ad6831526b1c22
 vendor/lib64/libril-qc-ltedirectdisc.so|2320253bc10c4683dd4d035f14f3c22da89a2fd4
 vendor/lib64/libril-qc-radioconfig.so|5a2b7e36d9c9d74cc29c55516fd77d5ee8d04618
 vendor/lib64/libril-qcril-hook-oem.so|bc216efecb94b352b1d9be890bbcf5fc29e2f830
@@ -1148,15 +1137,15 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|a82e851b3a2084cdb436bb3397c4ab
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|e9fea0c010f809e29333841bc9ded5ac744a55be
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|21773237c68924b6ee5a27c78a981b31c0405408
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|22ab381fb2e85004d07c5a94386f29490f17a191
-vendor/radio/qcril_database/qcril.db|bd7412ef90c076dac8f3a69596e2ed8d4b3f55fd
-vendor/radio/qcril_database/upgrade/0_initial.sql|e00b243261d8941802bdea9d4e659dc5e927c216
+vendor/radio/qcril_database/qcril.db|1c959537f9f841da06a57cd612ecea13bab4bb52
+vendor/radio/qcril_database/upgrade/0_initial.sql|bf2b0964f105d9fb18f58f14505c33b1390ed777
 vendor/radio/qcril_database/upgrade/1_version_intro.sql|67b96cb3e94737bfe271b2519b9eb5fae17373a2
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql|b4a825ba20fea3e2f20c7f02c8bd64596c24a75e
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc0868c48bba2f7542f5b4e68c9022
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863edadc7a8422b8310d267c594d11a0
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
 
-# Radio - IMS - from davinci-user-10-QKQ1.190825.002-20.6.8-release-keys
+# Radio - IMS - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 -product/app/uceShimService/uceShimService.apk|7a67142692073117f0ec6a2d6859dc002b0c02b2
 -product/priv-app/ims/ims.apk|3c10c234347d9fb822a27b7ab00909a16867a2bf
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
@@ -1360,7 +1349,7 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib/libtime_genoff.so|c68df7a1751de07fe1fa97d478a507d77e5d9b48
 vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 
-# TUI - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
+# TUI - from davinci-user-10-QKQ1.190825.002-20.7.9-release-keys
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc4479497fa666640612f06fbb4
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|de568c428f28470cbd03fc32774b20a11ea5e610
