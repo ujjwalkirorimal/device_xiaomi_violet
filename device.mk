@@ -81,12 +81,20 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@5.0-impl \
     android.hardware.bluetooth.audio@2.0-impl \
+    audio.primary.sm6150 \
     audio.a2dp.default \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
     libaudioroute \
+    libbatterylistener \
+    libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
+    libhdmipassthru \
+    libhfp \
+    libsndmonitor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
