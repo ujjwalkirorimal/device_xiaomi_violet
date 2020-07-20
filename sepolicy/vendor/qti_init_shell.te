@@ -1,5 +1,7 @@
 allow qti_init_shell configfs:dir write;
 allow qti_init_shell sysfs_usbpd_device:file setattr;
+allow qti_init_shell sysfs:file write;
+allow qti_init_shell sysfs_io_sched_tuneable:file write;
 
 # Persist context hack
 allow qti_init_shell persist_sensors_file:dir { read open search getattr relabelfrom relabelto };

@@ -1,4 +1,5 @@
 allow hal_perf_default init:dir { read search open };
 allow hal_perf_default kernel:dir { read search open };
+allow hal_perf_default proc:dir { read search open };
 allow hal_perf_default system_server:dir { read search open };
 allow hal_perf_default system_server:file { read getattr open };
